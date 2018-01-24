@@ -204,7 +204,7 @@ for page in range(0,pages):
         output_sheet.append(row)
 
     workbook.save('Claim Data Extractions VBA.xlsm')
-    print("Workbook {}, page {} succesfully extracted".format(pdfclaimtoconvert,pagenumber))
+    print("Workbook {}, page {} successfully extracted".format(pdfclaimtoconvert,pagenumber))
 
 # Clear working files
 # files = glob.glob('Cropped Images/*')
